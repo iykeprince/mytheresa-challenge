@@ -1,0 +1,34 @@
+:root {
+  --myt-body-text-color: #{$dark};
+  --myt-body-bg-color: #{$white};
+
+  --myt-btn-primary-color: #{$white};
+  --myt-btn-primary-bg: #{$green};
+  --myt-btn-primary-bg-hover: #{$green-light};
+
+  --myt-btn-secondary-color: #{$white};
+  --myt-btn-secondary-bg: #{$dark};
+
+  --myt-form-color: #{$dark};
+  --myt-form-bg: #{$white};
+  --myt-form-error-color: #{$red};
+  --myt-form-error-border: #{$red};
+  --myt-form-border-focus-color: #{$green};
+
+  --myt-body-font-size: #{$fs-base};
+  --myt-body-font-weight: #{$fw-normal};
+
+  --myt-h1-font-size: #{$h-1};
+  --myt-h2-font-size: #{$h-2};
+  --myt-h3-font-size: #{$h-3};
+  --myt-h4-font-size: #{$h-4};
+  --myt-h5-font-size: #{$h-5};
+  --myt-h6-font-size: #{$h-6};
+
+  --myt-h1-font-weight: #{$fw-medium};
+  --myt-h2-font-weight: #{$fw-medium};
+  --myt-h3-font-weight: #{$fw-medium};
+  --myt-h4-font-weight: #{$fw-normal};
+  --myt-h5-font-weight: #{$fw-normal};
+  --myt-h6-font-weight: #{$fw-light};
+}
