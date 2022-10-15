@@ -1,0 +1,19 @@
+@import "foundation/all";
+
+$sides: left,
+right,
+bottom,
+top;
+
+@each $size,
+$value in $spacing {
+  .myt-margin-#{$size} {
+    margin: $value;
+  }
+
+  @each $side in $sides {
+    .myt-margin-#{$side}-#{$size} {
+      margin-#{$side}: $value;
+    }
+  }
+}

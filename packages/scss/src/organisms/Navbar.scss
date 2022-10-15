@@ -1,0 +1,17 @@
+@import "foundation/all";
+
+.myt-navbar__container {
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: map-get($shadows, 'base');
+
+  @include padding('md');
+
+  &_link {
+    text-decoration: none;
+    color: $white;
+  }
+}

@@ -1,0 +1,22 @@
+@import "foundation/all";
+
+.myt-button__container {
+  display: flex;
+  justify-content: center;
+  background-color: $btn-primary-bg;
+  color: $btn-primary-color;
+  border: none;
+  padding: map-get($spacing, 'xs');
+  border-radius: 4px;
+  box-shadow: map-get($shadows, 'base');
+  cursor: pointer;
+
+  &:active {
+    background-color: $btn-primary-bg-hover;
+  }
+
+  &__disabled {
+    background-color: $btn-primary-bg-hover;
+    cursor: not-allowed;
+  }
+}

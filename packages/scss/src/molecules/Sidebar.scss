@@ -1,0 +1,78 @@
+@import "foundation/all";
+
+.myt-sidebar__container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: map-get($shadows, 'base');
+  width: 35%;
+  padding: map-get($spacing, 'sm');
+  border: 1px solid #f7f7f7;
+
+  @include tablet {
+    width: 100%;
+  }
+
+  .myt-sidebar__content {
+
+    &__header {
+      font-size: $h-5-font-size;
+      font-weight: $fw-normal;
+      font-family: $raleway;
+    }
+
+    &__title {
+      font-size: $h-2-font-size;
+      font-weight: $fw-medium;
+      font-family: $raleway;
+    }
+
+    &__tagline {
+      font-size: $h-6-font-size;
+      font-weight: $fw-light;
+      font-family: $raleway;
+
+    }
+
+    &__description {
+      font-size: map-get($fs, 'sm');
+      font-family: $raleway;
+      font-weight: $fw-normal;
+      line-height: 1.182rem;
+    }
+
+    &__posters {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+    }
+
+    &__caption {
+      display: flex;
+      justify-content: space-between;
+
+      &_title {
+        font-size: map-get($fs, 'md');
+        font-weight: $fw-normal;
+      }
+
+      &_value {
+        font-size: map-get($fs, 'md');
+        font-weight: $fw-bold;
+      }
+    }
+
+
+
+    .myt-sidebar__badge {
+      &__primary {
+        background-color: $dark;
+        padding: 6px;
+
+        color: $white;
+        font-size: $h-5-font-size;
+      }
+    }
+  }
+}

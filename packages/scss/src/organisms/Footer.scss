@@ -1,0 +1,33 @@
+@import "foundation/all";
+
+.myt-footer__container {
+  padding: 1rem;
+  border: 2px solid $dark-light;
+
+  .myt-footer__block {
+    &__title {
+      font-family: $raleway;
+      font-size: $h-4-font-size;
+      font-weight: $fw-normal;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: $h-2-font-size;
+    }
+
+  }
+
+  .production__images {
+    display: flex;
+  }
+
+
+
+}

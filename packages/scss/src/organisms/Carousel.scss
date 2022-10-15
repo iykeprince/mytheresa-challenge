@@ -1,0 +1,46 @@
+@import "foundation/all";
+
+.myt-carousel__container {
+
+
+  .myt-carousel__caption {
+    font-weight: $h-1-font-weight;
+    font-size: $h-2-font-size;
+    color: $dark;
+    font-family: $raleway;
+    margin-top: map-get($spacing, 'md');
+    margin-bottom: map-get($spacing, 'xxs');
+  }
+
+  /**
+   box-shadow: map-get($shadows, 'base');
+  */
+
+  .myt-carousel__content {
+    position: relative;
+    padding-top: 28%;
+
+    perspective: 100px;
+    border: 2px solid $white-dark;
+
+
+    .myt-carousel__ol {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      overflow-x: scroll;
+      counter-reset: item;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+    }
+
+    .myt-carousel__list-item {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

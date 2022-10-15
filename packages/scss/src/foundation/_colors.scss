@@ -13,7 +13,7 @@
 =============================================*/
 $body-text-color: var(--myt-body-text-color, $dark) !default;
 $body-bg-color: var(--myt-body-bg-color, $white) !default;
-
+$nav-bg-color: var(--myt-nav-bg-color, $primary) !default;
 /*=============================================
 =                 Buttons                     =
 =============================================*/
@@ -27,10 +27,8 @@ $btn-primary-bg-hover: var(--myt-btn-primary-bg-hover, $green-light) !default;
 $form-border-color: var(--myt-form-border-color, $white-dark) !default;
 $form-bg-color: var(--myt-form-bg-color, $white) !default;
 $form-bg-option-selected: var(--myt-form-bg-option-selected, $green) !default;
-$form-color-option-selected: var(
-  --myt-form-color-option-selected,
-  $white
-) !default;
+$form-color-option-selected: var(--myt-form-color-option-selected,
+  $white) !default;
 $form-bg-color-hover: var(--myt-form-bg-color-hover, $white-dark) !default;
 $form-color: var(--myt-form-color, $dark) !default;
 $form-bg: var(--myt-form-bg, $white) !default;

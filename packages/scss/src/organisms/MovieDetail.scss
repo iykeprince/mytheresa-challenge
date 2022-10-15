@@ -1,0 +1,12 @@
+@import "foundation/all";
+
+.myt-movie-detail__container {
+  display: flex;
+  flex-direction: row;
+
+  @include tablet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
