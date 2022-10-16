@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of the card 1`] = `
+<DocumentFragment>
+  <div
+    class="myt-card__container"
+    data-testid="MytCard"
+  >
+    <img
+      class="myt-card__image"
+      src="https://image.tmdb.org/t/p/originalundefined"
+    />
+    <div
+      class="myt-card__caption"
+    />
+  </div>
+</DocumentFragment>
+`;

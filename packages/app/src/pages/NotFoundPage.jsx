@@ -1,10 +1,12 @@
 import React from "react";
+import DefaultLayout from "../components/Layouts/DefaultLayout";
+import NotFound from "../components/NotFound";
 
 const NotFoundPage = () => {
   return (
-    <div>
-      <h1>Page not found</h1>
-    </div>
+    <DefaultLayout>
+      <NotFound />
+    </DefaultLayout>
   );
 };
 

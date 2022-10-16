@@ -4,6 +4,7 @@ import Card from "../Card";
 
 import "@mytheresa/scss/lib/Carousel.css";
 import { getMovies } from "../../services/api";
+import Loading from "../Loading";
 
 const Carousel = ({ id, title }) => {
   const [movies, setMovies] = useState([]);
@@ -24,7 +25,7 @@ const Carousel = ({ id, title }) => {
     <div className="myt-carousel__container">
       <div className="myt-carousel__caption">{title}</div>
       <div className="myt-carousel__content ">
-        {loading && <p>Loading...</p>}
+        {loading && <Loading />}
         <ol className="myt-carousel__ol">
           {movies.map((item, index) => {
             const { id, title, poster_path } = item;

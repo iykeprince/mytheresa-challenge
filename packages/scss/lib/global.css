@@ -608,3 +608,15 @@ template {
   padding: 0;
   margin: 0;
 }
+
+.myt-flex {
+  display: flex;
+}
+
+.myt-justify-content-between {
+  justify-content: space-between;
+}
+
+.myt-align-item-center {
+  align-items: center;
+}

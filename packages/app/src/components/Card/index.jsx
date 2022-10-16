@@ -4,7 +4,7 @@ import "@mytheresa/scss/lib/Card.css";
 
 const Card = ({ title, url }) => {
   return (
-    <div className="myt-card__container">
+    <div data-testid="MytCard" className="myt-card__container">
       <img
         src={`https://image.tmdb.org/t/p/original${url}`}
         alt={title}

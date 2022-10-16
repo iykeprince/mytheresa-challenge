@@ -2,7 +2,8 @@
   "name": "@mytheresa/core",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "author": "Ikechukwu Israel",
+  "repository": "https://github.com/iykeprince/mytheresa-challenge.git <Github>",
   "devDependencies": {
     "lerna": "^6.0.0"
   },
@@ -17,6 +18,7 @@
   },
   "scripts": {
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test"
   }
 }

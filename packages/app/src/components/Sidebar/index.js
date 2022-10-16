@@ -4,6 +4,7 @@ import Button from '../Button'
 import "@mytheresa/scss/lib/Sidebar.css"
 import "@mytheresa/scss/lib/Margin.css"
 import MovieContext from '../../contexts/MovieContext'
+import Loading from '../Loading'
 
 const Sidebar = ({ data }) => {
   const { setWishlist, wishlist } = useContext(MovieContext)
@@ -14,7 +15,9 @@ const Sidebar = ({ data }) => {
 
     setWishlist([...wishlist, data])
   }
-  if (!data) return <h3>Loading...</h3>
+
+  if (!data) return <Loading />
+
   return (
     <aside
       className="myt-sidebar__container"
@@ -24,6 +27,7 @@ const Sidebar = ({ data }) => {
         title={wishlist.find(w => w.id === data.id) !== undefined ? "Added" : "Add to Watchlist"}
         disabled={wishlist.find(w => w.id === data.id) !== undefined}
         onClick={addToWishlist}
+        data-testid="wishlistButton"
       />
 
       <div className="myt-sidebar__content">
