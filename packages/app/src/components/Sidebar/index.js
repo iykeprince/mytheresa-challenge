@@ -28,6 +28,7 @@ const Sidebar = ({ data }) => {
         disabled={wishlist.find(w => w.id === data.id) !== undefined}
         onClick={addToWishlist}
         data-testid="wishlistButton"
+        className="red-button"
       />
 
       <div className="myt-sidebar__content">

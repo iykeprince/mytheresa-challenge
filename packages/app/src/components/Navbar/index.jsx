@@ -9,8 +9,6 @@ const Navbar = () => {
   const { wishlist } = useContext(MovieContext);
   const [showDropdown, setShowDropdown] = useState(false);
 
-  console.log(wishlist);
-
   return (
     <div className="myt-navbar__container">
       <Link to="/" className="myt-navbar__container_link">

@@ -9,6 +9,12 @@ MyTheresa Frontend UI Challange.
 - Context ✅
 - SSR ❌
 
+# Setup Instructions
+
+- preferrable/recommended npm client (Yarn)
+- Run `yarn install`
+- Run `yarn dev`
+
 # Available Script
 
 - yarn dev - to start the app in development mod

@@ -102,8 +102,6 @@
 .myt-button__container {
   display: flex;
   justify-content: center;
-  background-color: var(--myt-btn-primary-bg, #5ece7b);
-  color: var(--myt-btn-primary-color, #fff);
   border: none;
   padding: 0.75rem;
   border-radius: 4px;
@@ -118,4 +116,14 @@
 .myt-button__container__disabled {
   background-color: var(--myt-btn-primary-bg-hover, #9ee2b0);
   cursor: not-allowed;
+}
+
+.myt-button__container__red-button {
+  background-color: #d12727;
+  color: #fff;
+}
+
+.myt-button__container__primary-button {
+  background-color: var(--myt-btn-primary-bg, #5ece7b);
+  color: var(--myt-btn-primary-color, #fff);
 }

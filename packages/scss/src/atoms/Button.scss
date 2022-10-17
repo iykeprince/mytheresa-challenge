@@ -3,8 +3,7 @@
 .myt-button__container {
   display: flex;
   justify-content: center;
-  background-color: $btn-primary-bg;
-  color: $btn-primary-color;
+
   border: none;
   padding: map-get($spacing, 'xs');
   border-radius: 4px;
@@ -18,5 +17,15 @@
   &__disabled {
     background-color: $btn-primary-bg-hover;
     cursor: not-allowed;
+  }
+
+  &__red-button {
+    background-color: $red;
+    color: $white;
+  }
+
+  &__primary-button {
+    background-color: $btn-primary-bg;
+    color: $btn-primary-color;
   }
 }
