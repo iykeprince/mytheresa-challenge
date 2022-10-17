@@ -11,7 +11,7 @@ MyTheresa Frontend UI Challange.
 
 # Setup Instructions
 
-- preferrable/recommended npm client (Yarn)
+- preferrable/recommended node package manager(Yarn)
 - Run `yarn install`
 - Run `yarn dev`
 
